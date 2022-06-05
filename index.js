@@ -28,6 +28,7 @@ app.get("/", (req, res) => {
 
 app.use("/users", require("./controllers/userRoutes"));
 app.use("/maps", require("./controllers/mapsRoutes"));
+app.use("/party", require("./controllers/partyRoutes"));
 // 404 Page
 // app.get("*", (req, res) => {
 //   res.render("404");
